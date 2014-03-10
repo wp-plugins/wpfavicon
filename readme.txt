@@ -7,11 +7,11 @@ Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This plugin for adding favicons to WordPress site.
+This plugin is for adding favicons to WordPress site.
 
 == Description ==
 
-This plugin for adding favicons to WordPress site.
+This plugin is for adding favicons to WordPress site.
 
 Using this you can add favicons to :
 
