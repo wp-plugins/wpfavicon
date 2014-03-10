@@ -3,7 +3,7 @@ Contributors: nazmul.hossain.nihal
 Tags: favicon,wpfavicons,icon,icons,Nazmul Hossain Nihal,codingwar.com,login screen,admin,site
 Requires at least: 2.0.3
 Tested up to: 3.4.1
-Stable tag: 1.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -39,7 +39,15 @@ Go to the Media >> Add new and upload your favicons.Then copy the link of the fi
 1. A Favicon
 1. Admin Panel
 
+== Upgrade Notice ==
+
+= 1.0.1 =
+* Admin Page updated
+
 == Changelog ==
 
 = 1.0 =
 * Plugin Created
+
+= 1.0.1 =
+* Admin Page updated

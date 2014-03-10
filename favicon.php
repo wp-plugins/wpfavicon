@@ -4,7 +4,7 @@ Plugin Name: WPFavicon
 Plugin URI: http://www.codingwar.com/
 Description: This plugin for adding favicons to WordPress site.
 Tags: favicon,wpfavicons,icon,icons,Nazmul Hossain Nihal,codingwar.com,login screen,admin,site
-Version: 1.0
+Version: 1.0.1
 Author:	Nazmul Hossain Nihal
 Author URI: http://www.codingwar.com/
 License: GPLv2 or later
