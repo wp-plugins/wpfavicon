@@ -9,7 +9,7 @@ function cwfav_site() {
 	ob_start(); ?>
 	<!-- Favicon Start -->
 		<!-- Favicon Version 1.0.2 : Site : Visit NihalsCode.com-->
-		<?php if(!empty($cwfav_options["admin_favicon"])): ?>
+		<?php if(!empty($cwfav_options["site_favicon"])): ?>
 		<link rel="icon" href="<?php echo $cwfav_options["site_favicon"];  ?>" type="image/x-icon" />
 		<?php endif; ?>
 		<meta name="Favicon" content="1.0" />
