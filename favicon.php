@@ -22,6 +22,6 @@ $cwfav_options = get_option('cwfav_settings');
 * includes
 ******************************/
 
-include('admin/cwfav_options.php'); //Admin Panel
+include('cwfav_options.php'); //Admin Panel
 
-include('display/settings.php'); //Display
+include('settings.php'); //Display
