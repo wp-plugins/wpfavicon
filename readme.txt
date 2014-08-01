@@ -1,9 +1,9 @@
 === WPFavicon ===
 Contributors: nazmul.hossain.nihal
-Tags: favicon,wpfavicons,icon,icons,Nazmul Hossain Nihal,codingwar.com,login screen,admin,site
+Tags: favicon,wpfavicons,icon,icons,Nazmul Hossain Nihal,NihalsCode.com,login screen,admin,site
 Requires at least: 3.5 
 Tested up to: 3.8.1
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -43,6 +43,8 @@ Go to the Media >> Add new and upload your favicons.Then copy the link of the fi
 
 = 1.0.1 =
 * Admin Page updated
+= 1.0.2 =
+* Update now!
 
 == Changelog ==
 
@@ -50,4 +52,6 @@ Go to the Media >> Add new and upload your favicons.Then copy the link of the fi
 * Plugin Created
 
 = 1.0.1 =
+* Admin Page updated
+= 1.0.2 =
 * Admin Page updated
