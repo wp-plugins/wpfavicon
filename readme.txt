@@ -2,10 +2,11 @@
 Contributors: nazmul.hossain.nihal
 Tags: favicon,wpfavicons,icon,icons,Nazmul Hossain Nihal,NihalsCode.com,login screen,admin,site
 Requires at least: 3.5 
-Tested up to: 3.8.1
-Stable tag: 1.0.2
+Tested up to: 4.1
+Stable tag: 2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYMPLJ69H9EM6
 
 This plugin is for adding favicons to WordPress site.
 
@@ -37,7 +38,7 @@ Go to the Media >> Add new and upload your favicons.Then copy the link of the fi
 == Screenshots ==
 
 1. A Favicon
-1. Admin Panel
+2. Admin Panel
 
 == Upgrade Notice ==
 
@@ -45,6 +46,8 @@ Go to the Media >> Add new and upload your favicons.Then copy the link of the fi
 * Admin Page updated
 = 1.0.2 =
 * Update now!
+= 2.0 =
+* Shortcodes feature added!Update now!
 
 == Changelog ==
 
@@ -55,3 +58,5 @@ Go to the Media >> Add new and upload your favicons.Then copy the link of the fi
 * Admin Page updated
 = 1.0.2 =
 * Admin Page updated
+= 2.0 =
+* Shortcodes feature added.

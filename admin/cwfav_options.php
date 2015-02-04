@@ -11,51 +11,37 @@ function cwfav_options_page() {
 		<h2>Favicons</h2>
 		<?php
 			$input = array(
-				"site_favicon" => array("text"=>"Site Favicon Url","class"=>"cwfav_file"),
-				"login_screen_favicon" => array("text"=>"Login Screen Favicon Url","class"=>"cwfav_file"),
-				"admin_favicon" => array("text"=>"Admin Favicon Url","class"=>"cwfav_file"),
+				"site_favicon" => array("text"=>"Site Favicon Url","class"=>"cwfav_file","placeholder" => "Example: %BLOG_URL%/wpcontent/site.png"),
+				"login_screen_favicon" => array("text"=>"Login Screen Favicon Url","class"=>"cwfav_file","placeholder" => "Example: %BLOG_URL%/wpcontent/login.png"),
+				"admin_favicon" => array("text"=>"Admin Favicon Url","class"=>"cwfav_file","placeholder" => "Example: %BLOG_URL%/wpcontent/admin.png"),
 			);
 		?>
-		<div style="float:left;">
-			<form method="post" action="options.php">
-				<?php settings_fields('cwfav_settings_group'); ?>
-				<table>
-					<?php foreach ($input as $name => $data) : ?>
-					<tr>
-						<td style="text-align:;"><label class="description" for="cwfav_settings[<?php echo $name; ?>]"><?php _e($data["text"], 'cwfav_domain'); ?></label></td>
-						<td><input class="<?php echo $data["class"]; ?>" id="cwfav_settings[<?php echo $name; ?>]" size="45" name="cwfav_settings[<?php echo $name; ?>]" type="text" value="<?php echo $cwfav_options[$name]; ?>"/></td>
+		<form method="post" action="options.php">
+			<?php settings_fields('cwfav_settings_group'); ?>
+			<table>
+				<?php foreach ($input as $name => $data) : ?>
+				<tr>
+					<td style="text-align:;"><label class="description" for="cwfav_settings[<?php echo $name; ?>]"><?php _e($data["text"], 'cwfav_domain'); ?></label></td>
+					<td><input class="<?php echo $data["class"]; ?>" id="cwfav_settings[<?php echo $name; ?>]" size="45" name="cwfav_settings[<?php echo $name; ?>]" type="text" value="<?php echo $cwfav_options[$name]; ?>" placeholder="<?php echo $data["placeholder"]; ?>"/></td>
+				</tr>
+				<?php endforeach; ?>
+				<tr>
+					<td></td>
+						<td>
+							<br />
+				<iframe src="//www.facebook.com/plugins/follow.php?href=https%3A%2F%2Fwww.facebook.com%2Fnazmul.hossain.nihal&amp;width&amp;height=35&amp;colorscheme=light&amp;layout=standard&amp;show_faces=false&amp;appId=715408735224516" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:35px;" allowTransparency="true"></iframe>
+				<br />
+				If you find this plugin useful then please rate this plugin <a style="text-decoration:none;" href="http://wordpress.org/extend/plugins/wpfavicon" target="_blank">here</a> <br /> and don't forget to visit my website <a style="text-decoration:none;" href="http://www.SuperbCodes.com/" target="_blank">SuperbCodes.com</a>.
+				<p><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYMPLJ69H9EM6" target="_blank"><img style="width:100px;height:30px;" alt="Donate" src="<?php echo plugin_dir_url( __FILE__ ); ?>images/donate.gif" /></a></p>
+
+						</td>
 					</tr>
-					<?php endforeach; ?>
-					<tr>
-						<td></td>
-						<td class="submit"><input type="submit" class="button-primary" value="<?php _e('Save Options', 'cwfav_domain'); ?>" /></td>
-					</tr>
-				</table>
-			</form>
-		</div>
-		<div class="wfnavigation" style="padding-top:13px;">
-			<a href="http://www.NihalsCode.com/" target="_blank" style="color:#FFFFFF;">	
-				<img width="150" height="134" src="<?php echo plugin_dir_url(''); ?>/wpfavicon/NC_logo.png" />
-			</a>
-			<br />
-			Powered by NihalsCode.com
-			<br />
-		</div>
-		<div class="wfnavigation" style="margin-top:13px;">
-				<script type="text/javascript">
-				  ( function() {
-					if (window.CHITIKA === undefined) { window.CHITIKA = { 'units' : [] }; };
-					var unit = {"calltype":"async[2]","publisher":"nazmulhossain","width":250,"height":250,"sid":"Chitika Default"};
-					var placement_id = window.CHITIKA.units.length;
-					window.CHITIKA.units.push(unit);
-					document.write('<div id="chitikaAdBlock-' + placement_id + '"></div>');
-				}());
-				</script>
-				<script type="text/javascript" src="//cdn.chitika.net/getads.js" async></script>
-		</div>
-		<div style="float:left;">
-			Thank you for using this plugin.Give <a href="http://wordpress.org/extend/plugins/wpfavicon/" target="_blank">this plugin</a> a good rating <br />
-		</div>
+				<tr>
+					<td></td>
+					<td class="submit"><input type="submit" class="button-primary" value="<?php _e('Save Options', 'cwfav_domain'); ?>" /></td>
+				</tr>
+			</table>
+		</form>
 	</div>
 	<?php
 	echo ob_get_clean();
