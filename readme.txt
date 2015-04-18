@@ -3,7 +3,7 @@ Contributors: nazmul.hossain.nihal
 Tags: favicon,wpfavicons,icon,icons,Nazmul Hossain Nihal,NihalsCode.com,login screen,admin,site
 Requires at least: 3.5 
 Tested up to: 4.1
-Stable tag: 2.0
+Stable tag: 2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYMPLJ69H9EM6
@@ -48,6 +48,8 @@ Go to the Media >> Add new and upload your favicons.Then copy the link of the fi
 * Update now!
 = 2.0 =
 * Shortcodes feature added!Update now!
+= 2.1 =
+* Language files added.
 
 == Changelog ==
 
@@ -60,3 +62,5 @@ Go to the Media >> Add new and upload your favicons.Then copy the link of the fi
 * Admin Page updated
 = 2.0 =
 * Shortcodes feature added.
+= 2.1 =
+* Language files added.

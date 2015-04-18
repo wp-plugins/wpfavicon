@@ -14,7 +14,7 @@ function cwfav_site() {
 	
 	ob_start(); ?>
 	<!-- Favicon Start -->
-		<!-- Favicon Version 2.0 : Site : Visit Superbcodes.com-->
+		<!-- Favicon Version 2.1 : Site : Visit Superbcodes.com-->
 		<?php if(!empty($cwfav_options["site_favicon"])): ?>
 		<link rel="icon" href="<?php echo $cwfav_options["site_favicon"];  ?>" type="image/x-icon" />
 		<?php endif; ?>

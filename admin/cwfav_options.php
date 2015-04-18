@@ -11,9 +11,9 @@ function cwfav_options_page() {
 		<h2>Favicons</h2>
 		<?php
 			$input = array(
-				"site_favicon" => array("text"=>"Site Favicon Url","class"=>"cwfav_file","placeholder" => "Example: %BLOG_URL%/wpcontent/site.png"),
-				"login_screen_favicon" => array("text"=>"Login Screen Favicon Url","class"=>"cwfav_file","placeholder" => "Example: %BLOG_URL%/wpcontent/login.png"),
-				"admin_favicon" => array("text"=>"Admin Favicon Url","class"=>"cwfav_file","placeholder" => "Example: %BLOG_URL%/wpcontent/admin.png"),
+				"site_favicon" => array("text"=>__('Site Favicon Url', 'cwfav'),"class"=>"cwfav_file","placeholder" => "Example: %BLOG_URL%/wpcontent/site.png"),
+				"login_screen_favicon" => array("text"=>__('Login Screen Favicon Url', 'cwfav'),"class"=>"cwfav_file","placeholder" => "Example: %BLOG_URL%/wpcontent/login.png"),
+				"admin_favicon" => array("text"=>__('Admin Favicon Url', 'cwfav'),"class"=>"cwfav_file","placeholder" => "Example: %BLOG_URL%/wpcontent/admin.png"),
 			);
 		?>
 		<form method="post" action="options.php">
@@ -38,7 +38,7 @@ function cwfav_options_page() {
 					</tr>
 				<tr>
 					<td></td>
-					<td class="submit"><input type="submit" class="button-primary" value="<?php _e('Save Options', 'cwfav_domain'); ?>" /></td>
+					<td class="submit"><input type="submit" class="button-primary" value="<?php _e('Save Options', 'cwfav'); ?>" /></td>
 				</tr>
 			</table>
 		</form>

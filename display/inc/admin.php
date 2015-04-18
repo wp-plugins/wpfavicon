@@ -15,7 +15,7 @@ function cwfav_admin() {
 	
 	ob_start(); ?>
 	<!-- Favicon Start -->
-		<!-- Favicon Version 2.0 : Admin : Visit SuperbCodes.com -->
+		<!-- Favicon Version 2.1 : Admin : Visit SuperbCodes.com -->
 		<?php if(!empty($cwfav_options["admin_favicon"])): ?>
 		<link rel="icon" href="<?php echo $favicon;  ?>" type="image/x-icon" />
 		<?php endif; ?>
